@@ -1,0 +1,88 @@
+.ui.card img {
+    height: 240px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.main.container {
+    margin-top: 4em;
+}
+
+.bottom .main.container {
+    margin-top: 0;
+}
+
+.currentPage {
+    display: inline;
+    margin-right: 3px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.ui.modal {
+    width: fit-content;
+}
+
+.ui.modal img {
+    height: 240px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.detImage {
+    width: auto !important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.description {
+    padding-right: 10px !important;
+}
+
+.category:hover:not(.brand) {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.shopping.cart.icon:hover {
+    color: darkgray;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.bg-white {
+    background: white !important;
+}
+
+.cartImg {
+    object-fit: cover !important;
+    overflow: hidden !important;
+}
+
+@media only screen and (max-height: 500px) {
+    .cartContainer {
+        max-height: 90% !important;
+    }
+}
+
+@media only screen and (min-height: 501px) {
+    .cartContainer {
+        max-height: 93% !important;
+    }
+}
+
+.ui.items.cartPanel {
+    margin-top: 15px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    margin-bottom: 15px !important;
+}
+
+.display-none {
+    display: none;
+}
